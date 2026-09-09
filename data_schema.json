@@ -1,0 +1,25 @@
+{
+  "directory": "data",
+  "files": {
+    "failure": "data_failure.pkl",
+    "success": "data_success.pkl",
+    "fine_mean": "data_fine_mean.npy",
+    "fine_std": "data_fine_std.npy",
+    "coarse_mean": "data_coarse_mean.npy",
+    "coarse_std": "data_coarse_std.npy"
+  },
+  "sample": {
+    "fine": {
+      "shape": [600, 8],
+      "dtype": "float32"
+    },
+    "coarse": {
+      "shape": [20],
+      "dtype": "float32"
+    }
+  },
+  "labels": {
+    "success": 0,
+    "failure": 1
+  }
+}

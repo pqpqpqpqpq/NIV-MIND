@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.pth
+*.pt
+*.ckpt
+*.npz
+weights/*
+predictions.csv
+training_output/

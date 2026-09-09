@@ -1,0 +1,24 @@
+{
+  "model": "NIV-MIND",
+  "task": "binary NIV outcome prediction",
+  "classes": {
+    "0": "NIV success",
+    "1": "NIV failure"
+  },
+  "fine_input": {
+    "shape": [600, 8],
+    "channels": ["FiO2", "PEEPset", "PI", "I:E", "VT", "MV", "RR", "Ppeak"]
+  },
+  "coarse_input": {
+    "shape": [20]
+  },
+  "architecture": {
+    "feature_dim": 64,
+    "num_frames": 120,
+    "embed_dim": 256,
+    "fine_embed_dim": 512,
+    "coarse_embed_dim": 128,
+    "fusion_dim": 256,
+    "num_attn_heads": 4
+  }
+}
