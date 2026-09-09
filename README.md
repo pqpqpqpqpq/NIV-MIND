@@ -147,9 +147,6 @@ Only the controlled experiments shown in the manuscript are included.
 | `sample_120` | 120 | 10 s |
 | `sample_40` | 40 | 30 s |
 
-The one-second variant requires native 1,200-point sequences. The code does
-not create one-second observations from the 600-point input.
-
 ### Single-variable temporal analysis
 
 `analysis/temporal_ablation.py` replaces each of the eight ventilator series
